@@ -30,7 +30,7 @@ public class WordManager {
             int menu = selectMenu();
             if(menu == 0) break;
             if(menu == 1) {
-                //read
+                wordCRUD.listAll();
             } else if(menu == 4) {
                 wordCRUD.addWord();
             }
